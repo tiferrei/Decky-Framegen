@@ -33,6 +33,7 @@
     "@rollup/rollup-linux-x64-musl": "^4.22.5",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
+    "@types/react-router": "5.1.20",
     "@types/webpack": "^5.28.5",
     "rollup": "^4.22.5",
     "typescript": "^5.6.2"
@@ -50,14 +51,8 @@
       ]
     }
   },
-  "remote_binary_bundling" : true,
-  "remote_binary": 
-  [
-    {
-      "sha256hash":  "6426a16085f6128c810e0de58947029664439afd0567b6a286c0e3ef784a92a1",
-      "url":  "https://github.com/xXJSONDeruloXx/OptiScaler-Bleeding-Edge/releases/download/opti-9-2-a/Optiscaler_0.9.2a-final.20260517._Reup.7z",
-      "name":  "Optiscaler_0.9.2a-final.20260517._Reup.7z"
-    },
+  "remote_binary_bundling": true,
+  "remote_binary": [
     {
       "sha256hash": "c7720bc16bede334f59a1a32cd22edbcbbb159685ed5240e61350a5fb0bc8a94",
       "url": "https://github.com/xXJSONDeruloXx/OptiScaler-Bleeding-Edge/releases/download/opti-9-2-a/amd_fidelityfx_upscaler_dx12.dll",
@@ -70,4 +65,3 @@
     }
   ]
 }
-
